@@ -1,0 +1,50 @@
+<?php
+/**
+ * @file
+ * Code for the OS2Web - Frontend feature.
+ */
+
+include_once 'os2web_frontend.features.inc';
+
+/**
+ * Implements hook_init().
+ *
+ * Inject additional Javascripts.
+ */
+function os2web_frontend_init() {
+  $script = <<<EOS
+    /*<![CDATA[*/
+    (function() {
+     var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+     sz.src = '//ssl.siteimprove.com/js/siteanalyze_1480.js';
+     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+     })();
+  /*]]>*/
+EOS;
+  drupal_add_js($script, array(
+    'scope' => 'footer',
+    'type' => 'inline',
+    'every_page' => TRUE));
+}
+
+/**
+ * Implements hook_menu_minipanels_styles().
+ *
+ * Adds extra style selection for minipanel
+ */
+function os2web_frontend_menu_minipanels_styles() {
+  $styles = array(
+    'cmstheme' => t('CMSTheme'),
+  );
+  return $styles;
+}
+
+/**
+ * Implements hook_menu_minipanels_style().
+ */
+function os2web_frontend_menu_minipanels_style($menu_config) {
+  drupal_add_js(drupal_get_path('module', 'os2web_frontend') . '/js/menu_style.js', array('scope' => 'footer', 'weight' => 100));
+  drupal_add_js(drupal_get_path('module', 'os2web_frontend') . '/js/jquery.yaselect.min.js', array('scope' => 'header', 'weight' => 102));
+  drupal_add_js(drupal_get_path('module', 'os2web_frontend') . '/js/jquery.sbselect.js', array('scope' => 'footer', 'weight' => 102));
+  drupal_add_js(drupal_get_path('module', 'os2web_frontend') . '/js/jquery.tabindex.js', array('scope' => 'footer', 'weight' => 102));
+}
