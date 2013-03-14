@@ -429,7 +429,7 @@ function os2web_frontend_delta_default_templates() {
   $delta = new stdClass();
   $delta->disabled = FALSE; /* Edit this to true to make a default delta disabled initially */
   $delta->api_version = 3;
-  $delta->machine_name = 'os2web_frontend_hide_second_sidebar';
+  $delta->machine_name = 'os2web_frontend_hide_sec_sidebar';
   $delta->name = 'Hide Second Sidebar';
   $delta->description = '';
   $delta->theme = 'cmstheme';
@@ -836,7 +836,7 @@ function os2web_frontend_delta_default_templates() {
     'color_cmstheme_stylesheets' => '',
     'color_cmstheme_screenshot' => '',
   );
-  $export['os2web_frontend_hide_second_sidebar'] = $delta;
+  $export['os2web_frontend_hide_sec_sidebar'] = $delta;
 
   $delta = new stdClass();
   $delta->disabled = FALSE; /* Edit this to true to make a default delta disabled initially */
