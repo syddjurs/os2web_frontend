@@ -7,7 +7,7 @@
 /**
  * Implements hook_context_default_contexts().
  */
-function os2web_frontend_default_contexts() {
+function os2web_frontend_context_default_contexts() {
   $export = array();
 
   $context = new stdClass();
@@ -15,7 +15,7 @@ function os2web_frontend_default_contexts() {
   $context->api_version = 3;
   $context->name = 'os2web_frontend_context_front';
   $context->description = 'Forside blokke';
-  $context->tag = 'OS2Web - CMSTheme';
+  $context->tag = 'OS2Web - Generelt';
   $context->conditions = array(
     'path' => array(
       'values' => array(
@@ -44,7 +44,7 @@ function os2web_frontend_default_contexts() {
   $context->api_version = 3;
   $context->name = 'os2web_frontend_context_hide_sec';
   $context->description = 'Skjul højre kolonne på iframesider';
-  $context->tag = '';
+  $context->tag = 'OS2Web - Generelt';
   $context->conditions = array(
     'node' => array(
       'values' => array(
@@ -82,7 +82,7 @@ function os2web_frontend_default_contexts() {
   $context->api_version = 3;
   $context->name = 'os2web_frontend_context_user';
   $context->description = 'Borger sider';
-  $context->tag = '';
+  $context->tag = 'OS2Web - Blokke';
   $context->conditions = array(
     'menu' => array(
       'values' => array(
@@ -131,7 +131,7 @@ function os2web_frontend_default_contexts() {
   $context->api_version = 3;
   $context->name = 'os2web_frontend_context_biz';
   $context->description = 'Erhverv sider';
-  $context->tag = '';
+  $context->tag = 'OS2Web - Blokke';
   $context->conditions = array(
     'menu' => array(
       'values' => array(
@@ -221,7 +221,7 @@ function os2web_frontend_default_contexts() {
   $context->api_version = 3;
   $context->name = 'os2web_frontend_context_global';
   $context->description = 'Globale højre blokke';
-  $context->tag = '';
+  $context->tag = 'OS2Web - Blokke';
   $context->conditions = array(
     'node' => array(
       'values' => array(
@@ -308,7 +308,7 @@ function os2web_frontend_default_contexts() {
   $context->api_version = 3;
   $context->name = 'os2web_frontend_context_plans';
   $context->description = 'Planer og fritid sider';
-  $context->tag = '';
+  $context->tag = 'OS2Web - Blokke';
   $context->conditions = array(
     'menu' => array(
       'values' => array(
@@ -358,7 +358,7 @@ function os2web_frontend_default_contexts() {
   $context->api_version = 3;
   $context->name = 'os2web_frontend_context_portal';
   $context->description = '';
-  $context->tag = '';
+  $context->tag = 'OS2Web - Blokke';
   $context->conditions = array(
     'path' => array(
       'values' => array(
