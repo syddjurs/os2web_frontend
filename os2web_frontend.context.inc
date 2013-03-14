@@ -7,7 +7,7 @@
 /**
  * Implements hook_context_default_contexts().
  */
-function os2web_frontend_delta_context_default_contexts() {
+function os2web_frontend_default_contexts() {
   $export = array();
 
   $context = new stdClass();
