@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * os2web_frontend_delta.context.inc
+ * os2web_frontend.context.inc
  */
 
 /**
