@@ -1,6 +1,6 @@
 name = OS2Web - Frontend
 core = 7.x
-package = OS2Web Frontend
+package = OS2Web - Frontend
 php = 5.2.4
 version = 7.x-1.0
 project = os2web_frontend
