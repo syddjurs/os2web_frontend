@@ -30,3 +30,6 @@ projects[menu_minipanels][version] = "1.0-rc6"
 
 projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
+
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.0-beta4"

@@ -13,10 +13,10 @@ function os2web_frontend_delta_default_templates() {
   $delta = new stdClass();
   $delta->disabled = FALSE; /* Edit this to true to make a default delta disabled initially */
   $delta->api_version = 3;
-  $delta->machine_name = 'os2web_frontend_forside';
+  $delta->machine_name = 'os2web_frontend_frontpage';
   $delta->name = 'Forside';
   $delta->description = '';
-  $delta->theme = 'cmstheme';
+  $delta->theme = 'os2web_theme';
   $delta->mode = 'preserve';
   $delta->parent = 'os2web_frontend_standard';
   $delta->settings = array(
@@ -424,7 +424,7 @@ function os2web_frontend_delta_default_templates() {
     'color_cmstheme_stylesheets' => '',
     'color_cmstheme_screenshot' => '',
   );
-  $export['os2web_frontend_forside'] = $delta;
+  $export['os2web_frontend_frontpage'] = $delta;
 
   $delta = new stdClass();
   $delta->disabled = FALSE; /* Edit this to true to make a default delta disabled initially */
@@ -432,9 +432,9 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_hide_sec_sidebar';
   $delta->name = 'Hide Second Sidebar';
   $delta->description = '';
-  $delta->theme = 'cmstheme';
+  $delta->theme = 'os2web_theme';
   $delta->mode = 'preserve';
-  $delta->parent = 'os2web_frontend_forside';
+  $delta->parent = 'os2web_frontend_frontpage';
   $delta->settings = array(
     'theme_cmstheme_settings' => array(
       'toggle_logo' => 1,
@@ -844,7 +844,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_content_editing';
   $delta->name = 'Indholdsredigering';
   $delta->description = '';
-  $delta->theme = 'cmstheme';
+  $delta->theme = 'os2web_theme';
   $delta->mode = 'preserve';
   $delta->parent = '';
   $delta->settings = array(
@@ -1260,9 +1260,9 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_portal_frontpage';
   $delta->name = 'Portalforside';
   $delta->description = '';
-  $delta->theme = 'cmstheme';
+  $delta->theme = 'os2web_theme';
   $delta->mode = 'preserve';
-  $delta->parent = 'os2web_frontend_forside';
+  $delta->parent = 'os2web_frontend_frontpage';
   $delta->settings = array(
     'theme_cmstheme_settings' => array(
       'toggle_logo' => 1,
@@ -1676,7 +1676,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_standard';
   $delta->name = 'Standard';
   $delta->description = '';
-  $delta->theme = 'cmstheme';
+  $delta->theme = 'os2web_theme';
   $delta->mode = 'preserve';
   $delta->parent = '';
   $delta->settings = array(
