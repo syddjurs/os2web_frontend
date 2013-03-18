@@ -20,7 +20,7 @@ projects[date][subdir] = "contrib"
 projects[date][version] = "2.6"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0"
+projects[features][version] = "2.0-beta1"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
