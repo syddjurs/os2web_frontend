@@ -48,3 +48,23 @@ function os2web_frontend_menu_minipanels_style($menu_config) {
   drupal_add_js(drupal_get_path('module', 'os2web_frontend') . '/js/jquery.sbselect.js', array('scope' => 'footer', 'weight' => 102));
   drupal_add_js(drupal_get_path('module', 'os2web_frontend') . '/js/jquery.tabindex.js', array('scope' => 'footer', 'weight' => 102));
 }
+
+/**
+ * Implements hook_form_alter().
+ *
+ * Add configuration to the settings form.
+ */
+function os2web_frontend_os2web_settings_settings_form_alter(&$form, &$form_state) {
+  $form['themesettings'] = array(
+    '#type' => 'fieldset',
+    '#collapsible' => FALSE,
+    '#title' => 'Display settings',
+    '#description' => 'Settings for theme and layout',
+  );
+  $form['themesettings']['os2web_default_menu'] = array(
+    '#type' => 'textfield',
+    '#default_value' => variable_get('os2web_default_menu', 'navigation'),
+    '#title' => t('Default menu for first sidebar'),
+    '#description' => t('Machine name for the menu to be inserted in blank left sidebars'),
+  );
+}
