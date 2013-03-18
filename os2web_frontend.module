@@ -54,7 +54,7 @@ function os2web_frontend_menu_minipanels_style($menu_config) {
  *
  * Add configuration to the settings form.
  */
-function os2web_frontend_os2web_settings_settings_form_alter(&$form, &$form_state) {
+function os2web_frontend_form_os2web_settings_settings_form_alter(&$form, &$form_state) {
   $form['themesettings'] = array(
     '#type' => 'fieldset',
     '#collapsible' => FALSE,
