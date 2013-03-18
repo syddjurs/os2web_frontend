@@ -40,5 +40,14 @@ function os2web_fronend_user_default_permissions() {
     'module' => 'bg_image_ui',
   );
 
+  // Exported permission: administer @font-your-face.
+  $permissions['administer @font-your-face'] = array(
+    'name' => 'administer @font-your-face',
+    'roles' => array(
+      0 => 'Administrator',
+      1 => 'Webmaster',
+    ),
+    'module' => 'fontyourface',
+  );
   return $permissions;
 }

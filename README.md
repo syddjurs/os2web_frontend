@@ -8,6 +8,15 @@ This module provides all basic frontend structure and settings for your OS2Web P
 Dependencies
 -----------
 
+- ctools
+- features
+- strongarm
+- menu_minipanels
+- delta
+- delta_ui
+- context
+- fontyourface
+
 Configuration
 -----------
 
