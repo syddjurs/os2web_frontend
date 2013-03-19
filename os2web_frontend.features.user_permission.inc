@@ -14,8 +14,8 @@ function os2web_fronend_user_default_permissions() {
   $permissions['administer background image'] = array(
     'name' => 'administer background image',
     'roles' => array(
-      0 => 'os2web_base_role_administrator',
-      1 => 'os2web_base_role_webmaster',
+      0 => 'Administrator',
+      1 => 'Webmaster',
     ),
     'module' => 'bg_image',
   );
@@ -24,8 +24,8 @@ function os2web_fronend_user_default_permissions() {
   $permissions['administer delta'] = array(
     'name' => 'administer delta',
     'roles' => array(
-      0 => 'os2web_base_role_administrator',
-      1 => 'os2web_base_role_webmaster',
+      0 => 'Administrator',
+      1 => 'Webmaster',
     ),
     'module' => 'delta_ui',
   );
@@ -34,8 +34,8 @@ function os2web_fronend_user_default_permissions() {
   $permissions['manage background images'] = array(
     'name' => 'manage background images',
     'roles' => array(
-      0 => 'os2web_base_role_administrator',
-      1 => 'os2web_base_role_webmaster',
+      0 => 'Administrator',
+      1 => 'Webmaster',
     ),
     'module' => 'bg_image_ui',
   );
@@ -44,8 +44,8 @@ function os2web_fronend_user_default_permissions() {
   $permissions['administer @font-your-face'] = array(
     'name' => 'administer @font-your-face',
     'roles' => array(
-      0 => 'os2web_base_role_administrator',
-      1 => 'os2web_base_role_webmaster',
+      0 => 'Administrator',
+      1 => 'Webmaster',
     ),
     'module' => 'fontyourface',
   );
