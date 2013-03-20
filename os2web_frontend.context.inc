@@ -287,9 +287,9 @@ function os2web_frontend_context_default_contexts() {
           'region' => 'sidebar_second',
           'weight' => '-66',
         ),
-        'menu-menu-erhverv-genveje' => array(
+        'menu-os2web-menu-business-shortcuts' => array(
           'module' => 'menu',
-          'delta' => 'menu-erhverv-genveje',
+          'delta' => 'os2web-menu-business-shortcuts',
           'region' => 'header_second',
           'weight' => '-10',
         ),
@@ -408,9 +408,9 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'system-user-menu' => array(
+        'system-os2web-menu-user' => array(
           'module' => 'system',
-          'delta' => 'user-menu',
+          'delta' => 'os2web-menu-user',
           'region' => 'user_first',
           'weight' => '-10',
         ),
