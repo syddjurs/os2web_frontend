@@ -1,3 +1,8 @@
+/**
+ * @file
+ * jquery.sbselect.js
+ */
+
 $j(document).ready(function($) {
   $('ul.sb-list').each(function(){
 

@@ -1,3 +1,8 @@
+/**
+ * @file
+ * menu_style.js
+ */
+
 (function() {
   "use strict";
   // Last part is the internal name of the style.

@@ -1,3 +1,8 @@
+/**
+ * @file
+ * jquery.tabindex.js
+ */
+
 (function($)  {
   $(function(){
     var tabindex = 1;
