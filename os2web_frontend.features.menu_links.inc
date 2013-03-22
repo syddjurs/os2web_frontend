@@ -10,9 +10,9 @@
 function os2web_frontend_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu:taxonomy/term/4
-  $menu_links['main-menu:taxonomy/term/4'] = array(
-    'menu_name' => 'main-menu',
+  // Exported menu link: os2web-main-menu:taxonomy/term/4
+  $menu_links['os2web-main-menu:taxonomy/term/4'] = array(
+    'menu_name' => 'os2web-main-menu',
     'link_path' => 'taxonomy/term/4',
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Borger',
@@ -71,9 +71,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '0',
   );
-  // Exported menu link: main-menu:taxonomy/term/5
-  $menu_links['main-menu:taxonomy/term/5'] = array(
-    'menu_name' => 'main-menu',
+  // Exported menu link: os2web-main-menu:taxonomy/term/5
+  $menu_links['os2web-main-menu:taxonomy/term/5'] = array(
+    'menu_name' => 'os2web-main-menu',
     'link_path' => 'taxonomy/term/5',
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Erhverv',
@@ -132,9 +132,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '0',
   );
-  // Exported menu link: main-menu:taxonomy/term/6
-  $menu_links['main-menu:taxonomy/term/6'] = array(
-    'menu_name' => 'main-menu',
+  // Exported menu link: os2web-main-menu:taxonomy/term/6
+  $menu_links['os2web-main-menu:taxonomy/term/6'] = array(
+    'menu_name' => 'os2web-main-menu',
     'link_path' => 'taxonomy/term/6',
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Politik og planer',
@@ -193,9 +193,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '0',
   );
-  // Exported menu link: menu-erhverv-genveje:contact
-  $menu_links['menu-erhverv-genveje:contact'] = array(
-    'menu_name' => 'menu-erhverv-genveje',
+  // Exported menu link: os2web-menu-business-shortcuts:contact
+  $menu_links['os2web-menu-business-shortcuts:contact'] = array(
+    'menu_name' => 'os2web-menu-business-shortcuts',
     'link_path' => 'contact',
     'router_path' => 'contact',
     'link_title' => 'Kontakt',
@@ -211,9 +211,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-50',
   );
-  // Exported menu link: menu-erhverv-genveje:job-opslag/ofir
-  $menu_links['menu-erhverv-genveje:job-opslag/ofir'] = array(
-    'menu_name' => 'menu-erhverv-genveje',
+  // Exported menu link: os2web-menu-business-shortcuts:job-opslag/ofir
+  $menu_links['os2web-menu-business-shortcuts:job-opslag/ofir'] = array(
+    'menu_name' => 'os2web-menu-business-shortcuts',
     'link_path' => 'job-opslag/ofir',
     'router_path' => 'job-opslag',
     'link_title' => 'Job',
@@ -229,9 +229,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-47',
   );
-  // Exported menu link: menu-erhverv-genveje:node/2212
-  $menu_links['menu-erhverv-genveje:node/2212'] = array(
-    'menu_name' => 'menu-erhverv-genveje',
+  // Exported menu link: os2web-menu-business-shortcuts:node/2212
+  $menu_links['os2web-menu-business-shortcuts:node/2212'] = array(
+    'menu_name' => 'os2web-menu-business-shortcuts',
     'link_path' => 'node/2212',
     'router_path' => 'node/%',
     'link_title' => 'Om Kommunen',
@@ -247,9 +247,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-45',
   );
-  // Exported menu link: menu-erhverv-genveje:nyheder
-  $menu_links['menu-erhverv-genveje:nyheder'] = array(
-    'menu_name' => 'menu-erhverv-genveje',
+  // Exported menu link: os2web-menu-business-shortcuts:nyheder
+  $menu_links['os2web-menu-business-shortcuts:nyheder'] = array(
+    'menu_name' => 'os2web-menu-business-shortcuts',
     'link_path' => 'nyheder',
     'router_path' => 'nyheder',
     'link_title' => 'Nyheder',
@@ -265,9 +265,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-49',
   );
-  // Exported menu link: menu-erhverv-genveje:selvbetjening
-  $menu_links['menu-erhverv-genveje:selvbetjening'] = array(
-    'menu_name' => 'menu-erhverv-genveje',
+  // Exported menu link: os2web-menu-business-shortcuts:selvbetjening
+  $menu_links['os2web-menu-business-shortcuts:selvbetjening'] = array(
+    'menu_name' => 'os2web-menu-business-shortcuts',
     'link_path' => 'selvbetjening',
     'router_path' => 'selvbetjening',
     'link_title' => 'Selvbetjening',
@@ -283,9 +283,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-48',
   );
-  // Exported menu link: menu-indholdsmenu:taxonomy/term/4
-  $menu_links['menu-indholdsmenu:taxonomy/term/4'] = array(
-    'menu_name' => 'menu-indholdsmenu',
+  // Exported menu link: os2web-menu-contentmenu:taxonomy/term/4
+  $menu_links['os2web-menu-contentmenu:taxonomy/term/4'] = array(
+    'menu_name' => 'os2web-menu-contentmenu',
     'link_path' => 'taxonomy/term/4',
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Borger',
@@ -302,9 +302,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '0',
   );
-  // Exported menu link: menu-indholdsmenu:taxonomy/term/5
-  $menu_links['menu-indholdsmenu:taxonomy/term/5'] = array(
-    'menu_name' => 'menu-indholdsmenu',
+  // Exported menu link: os2web-menu-contentmenu:taxonomy/term/5
+  $menu_links['os2web-menu-contentmenu:taxonomy/term/5'] = array(
+    'menu_name' => 'os2web-menu-contentmenu',
     'link_path' => 'taxonomy/term/5',
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Erhverv',
@@ -321,9 +321,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '0',
   );
-  // Exported menu link: menu-indholdsmenu:taxonomy/term/6
-  $menu_links['menu-indholdsmenu:taxonomy/term/6'] = array(
-    'menu_name' => 'menu-indholdsmenu',
+  // Exported menu link: os2web-menu-contentmenu:taxonomy/term/6
+  $menu_links['os2web-menu-contentmenu:taxonomy/term/6'] = array(
+    'menu_name' => 'os2web-menu-contentmenu',
     'link_path' => 'taxonomy/term/6',
     'router_path' => 'taxonomy/term/%',
     'link_title' => 'Politik & planer',
@@ -397,9 +397,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-50',
   );
-  // Exported menu link: user-menu:admin/workbench
-  $menu_links['user-menu:admin/workbench'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:admin/workbench
+  $menu_links['os2web-menu-user:admin/workbench'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'admin/workbench',
     'router_path' => 'admin/workbench',
     'link_title' => 'Workbench',
@@ -416,9 +416,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-50',
   );
-  // Exported menu link: user-menu:node/add/contentpage
-  $menu_links['user-menu:node/add/contentpage'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/contentpage
+  $menu_links['os2web-menu-user:node/add/contentpage'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/contentpage',
     'router_path' => 'node/add/contentpage',
     'link_title' => '+indhold',
@@ -435,9 +435,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-47',
   );
-  // Exported menu link: user-menu:node/add/esdh-dokument
-  $menu_links['user-menu:node/add/esdh-dokument'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/esdh-dokument
+  $menu_links['os2web-menu-user:node/add/esdh-dokument'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/esdh-dokument',
     'router_path' => 'node/add/esdh-dokument',
     'link_title' => 'Opret ESDH dokument',
@@ -454,9 +454,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-44',
   );
-  // Exported menu link: user-menu:node/add/esdh-sag
-  $menu_links['user-menu:node/add/esdh-sag'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/esdh-sag
+  $menu_links['os2web-menu-user:node/add/esdh-sag'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/esdh-sag',
     'router_path' => 'node/add/esdh-sag',
     'link_title' => 'Opret ESDH sag',
@@ -473,9 +473,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-45',
   );
-  // Exported menu link: user-menu:node/add/galleri
-  $menu_links['user-menu:node/add/galleri'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/galleri
+  $menu_links['os2web-menu-user:node/add/galleri'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/galleri',
     'router_path' => 'node/add/galleri',
     'link_title' => '+galleri',
@@ -492,9 +492,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-46',
   );
-  // Exported menu link: user-menu:node/add/iframe-selvbetjeningsl-sning-mm
-  $menu_links['user-menu:node/add/iframe-selvbetjeningsl-sning-mm'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/iframe-selvbetjeningsl-sning-mm
+  $menu_links['os2web-menu-user:node/add/iframe-selvbetjeningsl-sning-mm'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/iframe-selvbetjeningsl-sning-mm',
     'router_path' => 'node/add/iframe-selvbetjeningsl-sning-mm',
     'link_title' => '+iframe/selvbetjeningsløsning m.m.',
@@ -510,9 +510,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-45',
   );
-  // Exported menu link: user-menu:node/add/kontaktblok
-  $menu_links['user-menu:node/add/kontaktblok'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/kontaktblok
+  $menu_links['os2web-menu-user:node/add/kontaktblok'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/kontaktblok',
     'router_path' => 'node/add/kontaktblok',
     'link_title' => '+kontaktblok',
@@ -528,9 +528,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-43',
   );
-  // Exported menu link: user-menu:node/add/news
-  $menu_links['user-menu:node/add/news'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/news
+  $menu_links['os2web-menu-user:node/add/news'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/news',
     'router_path' => 'node/add/news',
     'link_title' => '+nyhed',
@@ -547,9 +547,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-48',
   );
-  // Exported menu link: user-menu:node/add/rotating-image
-  $menu_links['user-menu:node/add/rotating-image'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/rotating-image
+  $menu_links['os2web-menu-user:node/add/rotating-image'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/rotating-image',
     'router_path' => 'node/add/rotating-image',
     'link_title' => '+billedkarrusel',
@@ -566,9 +566,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-49',
   );
-  // Exported menu link: user-menu:node/add/spotbox
-  $menu_links['user-menu:node/add/spotbox'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:node/add/spotbox
+  $menu_links['os2web-menu-user:node/add/spotbox'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'node/add/spotbox',
     'router_path' => 'node/add/spotbox',
     'link_title' => '+spotboks',
@@ -584,9 +584,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-44',
   );
-  // Exported menu link: user-menu:user
-  $menu_links['user-menu:user'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:user
+  $menu_links['os2web-menu-user:user'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'user',
     'router_path' => 'user',
     'link_title' => 'User account',
@@ -600,9 +600,9 @@ function os2web_frontend_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '-10',
   );
-  // Exported menu link: user-menu:user/logout
-  $menu_links['user-menu:user/logout'] = array(
-    'menu_name' => 'user-menu',
+  // Exported menu link: os2web-menu-user:user/logout
+  $menu_links['os2web-menu-user:user/logout'] = array(
+    'menu_name' => 'os2web-menu-user',
     'link_path' => 'user/logout',
     'router_path' => 'user/logout',
     'link_title' => 'Log out',
