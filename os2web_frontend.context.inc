@@ -50,7 +50,7 @@ function os2web_frontend_context_default_contexts() {
       'values' => array(
         'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
         'meeting' => 'meeting',
-        'sektionsside' => 'sektionsside',
+        'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
         'node_form' => '1',
@@ -94,7 +94,7 @@ function os2web_frontend_context_default_contexts() {
         'contentpage' => 'contentpage',
         'galleri' => 'galleri',
         'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
-        'sektionsside' => 'sektionsside',
+        'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
         'node_form' => '1',
@@ -145,7 +145,7 @@ function os2web_frontend_context_default_contexts() {
         'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
         'local_plan' => 'local_plan',
         'referat' => 'referat',
-        'sektionsside' => 'sektionsside',
+        'os2web_sections_page' => 'os2web_sections_page',
         'webform' => 'webform',
       ),
       'options' => array(
@@ -229,7 +229,7 @@ function os2web_frontend_context_default_contexts() {
         'galleri' => 'galleri',
         'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
         'news' => 'news',
-        'sektionsside' => 'sektionsside',
+        'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
         'node_form' => '1',
@@ -321,7 +321,7 @@ function os2web_frontend_context_default_contexts() {
         'galleri' => 'galleri',
         'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
         'local_plan' => 'local_plan',
-        'sektionsside' => 'sektionsside',
+        'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
         'node_form' => '1',
