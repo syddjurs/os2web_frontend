@@ -51,3 +51,6 @@ projects[fontyourface][version] = "2.7"
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.5"
 
+projects[superfish][subdir] = "contrib"
+projects[superfish][version] = "1.8"
+
