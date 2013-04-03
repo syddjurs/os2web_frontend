@@ -16,12 +16,6 @@ function os2web_frontend_menu_default_menu_custom() {
     'title' => 'Main menu',
     'description' => 'The <em>Main</em> menu is used on many sites to show the major sections of the site, often in a top navigation bar.',
   );
-  // Exported menu: os2web-menu-other-sites.
-  $menus['os2web-menu-other-sites'] = array(
-    'menu_name' => 'os2web-menu-other-sites',
-    'title' => 'Andre netsteder',
-    'description' => '',
-  );
   // Exported menu: os2web-menu-business-shortcuts.
   $menus['os2web-menu-business-shortcuts'] = array(
     'menu_name' => 'os2web-menu-business-shortcuts',
@@ -32,6 +26,12 @@ function os2web_frontend_menu_default_menu_custom() {
   $menus['os2web-menu-contentmenu'] = array(
     'menu_name' => 'os2web-menu-contentmenu',
     'title' => 'Indholdsmenu',
+    'description' => '',
+  );
+  // Exported menu: os2web-menu-other-sites.
+  $menus['os2web-menu-other-sites'] = array(
+    'menu_name' => 'os2web-menu-other-sites',
+    'title' => 'Andre netsteder',
     'description' => '',
   );
   // Exported menu: os2web-menu-user.
