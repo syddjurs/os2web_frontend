@@ -54,3 +54,5 @@ projects[views][version] = "3.5"
 projects[superfish][subdir] = "contrib"
 projects[superfish][version] = "1.8"
 
+projects[media][subdir] = "contrib"
+projects[media][version] = "1.3"
