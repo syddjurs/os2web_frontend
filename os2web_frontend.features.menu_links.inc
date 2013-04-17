@@ -84,7 +84,7 @@ function os2web_frontend_menu_default_menu_links() {
           ),
         ),
         'style' => array(
-          'name' => 'cmstheme',
+          'name' => 'os2web_core_theme',
           'width' => array(
             'min' => '970',
             'max' => '970',
@@ -145,7 +145,7 @@ function os2web_frontend_menu_default_menu_links() {
           ),
         ),
         'style' => array(
-          'name' => 'cmstheme',
+          'name' => 'os2web_core_theme',
           'width' => array(
             'min' => '970',
             'max' => '970',
@@ -206,7 +206,7 @@ function os2web_frontend_menu_default_menu_links() {
           ),
         ),
         'style' => array(
-          'name' => 'cmstheme',
+          'name' => 'os2web_core_theme',
           'width' => array(
             'min' => '970',
             'max' => '970',

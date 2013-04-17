@@ -20,7 +20,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->mode = 'preserve';
   $delta->parent = 'os2web_frontend_standard';
   $delta->settings = array(
-    'theme_cmstheme_settings' => array(
+    'theme_os2web_core_theme_settings' => array(
       'toggle_logo' => 1,
       'toggle_name' => 1,
       'toggle_slogan' => 0,
@@ -36,7 +36,7 @@ function os2web_frontend_delta_default_templates() {
       'default_favicon' => 0,
       'favicon_path' => 'public://vaabenskjold-ikon.png',
       'favicon_upload' => '',
-      'alpha_grid' => 'cmstheme_default',
+      'alpha_grid' => 'os2web_core_theme_default',
       'alpha_responsive' => 0,
       'alpha_viewport' => 1,
       'alpha_viewport_initial_scale' => '1',
@@ -60,10 +60,10 @@ function os2web_frontend_delta_default_templates() {
       'alpha_layouts_alpha_fluid_normal_responsive' => 0,
       'alpha_layouts_alpha_fluid_normal_weight' => '0',
       'alpha_layouts_alpha_fluid_normal_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
-      'alpha_primary_cmstheme_default' => 'normal',
-      'alpha_layouts_cmstheme_default_normal_responsive' => 0,
-      'alpha_layouts_cmstheme_default_normal_weight' => '0',
-      'alpha_layouts_cmstheme_default_normal_media' => 'all',
+      'alpha_primary_os2web_core_theme_default' => 'normal',
+      'alpha_layouts_os2web_core_theme_default_normal_responsive' => 0,
+      'alpha_layouts_os2web_core_theme_default_normal_weight' => '0',
+      'alpha_layouts_os2web_core_theme_default_normal_media' => 'all',
       'alpha_libraries' => array(
         'omega_formalize' => 'omega_formalize',
         'omega_mediaqueries' => 0,
@@ -418,11 +418,11 @@ function os2web_frontend_delta_default_templates() {
       'alpha_region_footer_third_equal_height_container' => 1,
       'favicon_mimetype' => 'image/png',
     ),
-    'color_cmstheme_files' => '',
-    'color_cmstheme_logo' => '',
-    'color_cmstheme_palette' => '',
-    'color_cmstheme_stylesheets' => '',
-    'color_cmstheme_screenshot' => '',
+    'color_os2web_core_theme_files' => '',
+    'color_os2web_core_theme_logo' => '',
+    'color_os2web_core_theme_palette' => '',
+    'color_os2web_core_theme_stylesheets' => '',
+    'color_os2web_core_theme_screenshot' => '',
   );
   $export['os2web_frontend_frontpage'] = $delta;
 
@@ -436,7 +436,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->mode = 'preserve';
   $delta->parent = 'os2web_frontend_frontpage';
   $delta->settings = array(
-    'theme_cmstheme_settings' => array(
+    'theme_os2web_core_theme_settings' => array(
       'toggle_logo' => 1,
       'toggle_name' => 1,
       'toggle_slogan' => 0,
@@ -452,7 +452,7 @@ function os2web_frontend_delta_default_templates() {
       'default_favicon' => 0,
       'favicon_path' => 'public://vaabenskjold-ikon.png',
       'favicon_upload' => '',
-      'alpha_grid' => 'cmstheme_default',
+      'alpha_grid' => 'os2web_core_theme_default',
       'alpha_responsive' => 0,
       'alpha_viewport' => 1,
       'alpha_viewport_initial_scale' => '1',
@@ -476,10 +476,10 @@ function os2web_frontend_delta_default_templates() {
       'alpha_layouts_alpha_fluid_normal_responsive' => 0,
       'alpha_layouts_alpha_fluid_normal_weight' => '0',
       'alpha_layouts_alpha_fluid_normal_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
-      'alpha_primary_cmstheme_default' => 'normal',
-      'alpha_layouts_cmstheme_default_normal_responsive' => 0,
-      'alpha_layouts_cmstheme_default_normal_weight' => '0',
-      'alpha_layouts_cmstheme_default_normal_media' => 'all',
+      'alpha_primary_os2web_core_theme_default' => 'normal',
+      'alpha_layouts_os2web_core_theme_default_normal_responsive' => 0,
+      'alpha_layouts_os2web_core_theme_default_normal_weight' => '0',
+      'alpha_layouts_os2web_core_theme_default_normal_media' => 'all',
       'alpha_libraries' => array(
         'omega_formalize' => 'omega_formalize',
         'omega_mediaqueries' => 0,
@@ -830,11 +830,11 @@ function os2web_frontend_delta_default_templates() {
       'alpha_region_footer_third_equal_height_container' => 1,
       'favicon_mimetype' => 'image/png',
     ),
-    'color_cmstheme_files' => '',
-    'color_cmstheme_logo' => '',
-    'color_cmstheme_palette' => '',
-    'color_cmstheme_stylesheets' => '',
-    'color_cmstheme_screenshot' => '',
+    'color_os2web_core_theme_files' => '',
+    'color_os2web_core_theme_logo' => '',
+    'color_os2web_core_theme_palette' => '',
+    'color_os2web_core_theme_stylesheets' => '',
+    'color_os2web_core_theme_screenshot' => '',
   );
   $export['os2web_frontend_hide_sec_sidebar'] = $delta;
 
@@ -848,7 +848,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->mode = 'preserve';
   $delta->parent = '';
   $delta->settings = array(
-    'theme_cmstheme_settings' => array(
+    'theme_os2web_core_theme_settings' => array(
       'toggle_logo' => 1,
       'toggle_name' => 1,
       'toggle_slogan' => 0,
@@ -864,7 +864,7 @@ function os2web_frontend_delta_default_templates() {
       'default_favicon' => 0,
       'favicon_path' => 'public://vaabenskjold-ikon.png',
       'favicon_upload' => '',
-      'alpha_grid' => 'cmstheme_default',
+      'alpha_grid' => 'os2web_core_theme_default',
       'alpha_responsive' => 0,
       'alpha_viewport' => 1,
       'alpha_viewport_initial_scale' => '1',
@@ -888,10 +888,10 @@ function os2web_frontend_delta_default_templates() {
       'alpha_layouts_alpha_fluid_normal_responsive' => 0,
       'alpha_layouts_alpha_fluid_normal_weight' => '0',
       'alpha_layouts_alpha_fluid_normal_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
-      'alpha_primary_cmstheme_default' => 'normal',
-      'alpha_layouts_cmstheme_default_normal_responsive' => 0,
-      'alpha_layouts_cmstheme_default_normal_weight' => '0',
-      'alpha_layouts_cmstheme_default_normal_media' => 'all',
+      'alpha_primary_os2web_core_theme_default' => 'normal',
+      'alpha_layouts_os2web_core_theme_default_normal_responsive' => 0,
+      'alpha_layouts_os2web_core_theme_default_normal_weight' => '0',
+      'alpha_layouts_os2web_core_theme_default_normal_media' => 'all',
       'alpha_libraries' => array(
         'omega_formalize' => 'omega_formalize',
         'omega_mediaqueries' => 0,
@@ -1246,11 +1246,11 @@ function os2web_frontend_delta_default_templates() {
       'alpha_region_footer_third_equal_height_container' => 1,
       'favicon_mimetype' => 'image/png',
     ),
-    'color_cmstheme_files' => '',
-    'color_cmstheme_logo' => '',
-    'color_cmstheme_palette' => '',
-    'color_cmstheme_stylesheets' => '',
-    'color_cmstheme_screenshot' => '',
+    'color_os2web_core_theme_files' => '',
+    'color_os2web_core_theme_logo' => '',
+    'color_os2web_core_theme_palette' => '',
+    'color_os2web_core_theme_stylesheets' => '',
+    'color_os2web_core_theme_screenshot' => '',
   );
   $export['os2web_frontend_content_editing'] = $delta;
 
@@ -1264,7 +1264,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->mode = 'preserve';
   $delta->parent = 'os2web_frontend_frontpage';
   $delta->settings = array(
-    'theme_cmstheme_settings' => array(
+    'theme_os2web_core_theme_settings' => array(
       'toggle_logo' => 1,
       'toggle_name' => 1,
       'toggle_slogan' => 0,
@@ -1280,7 +1280,7 @@ function os2web_frontend_delta_default_templates() {
       'default_favicon' => 0,
       'favicon_path' => 'public://vaabenskjold-ikon.png',
       'favicon_upload' => '',
-      'alpha_grid' => 'cmstheme_default',
+      'alpha_grid' => 'os2web_core_theme_default',
       'alpha_responsive' => 0,
       'alpha_viewport' => 1,
       'alpha_viewport_initial_scale' => '1',
@@ -1304,10 +1304,10 @@ function os2web_frontend_delta_default_templates() {
       'alpha_layouts_alpha_fluid_normal_responsive' => 0,
       'alpha_layouts_alpha_fluid_normal_weight' => '0',
       'alpha_layouts_alpha_fluid_normal_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
-      'alpha_primary_cmstheme_default' => 'normal',
-      'alpha_layouts_cmstheme_default_normal_responsive' => 0,
-      'alpha_layouts_cmstheme_default_normal_weight' => '0',
-      'alpha_layouts_cmstheme_default_normal_media' => 'all',
+      'alpha_primary_os2web_core_theme_default' => 'normal',
+      'alpha_layouts_os2web_core_theme_default_normal_responsive' => 0,
+      'alpha_layouts_os2web_core_theme_default_normal_weight' => '0',
+      'alpha_layouts_os2web_core_theme_default_normal_media' => 'all',
       'alpha_libraries' => array(
         'omega_formalize' => 'omega_formalize',
         'omega_mediaqueries' => 0,
@@ -1662,11 +1662,11 @@ function os2web_frontend_delta_default_templates() {
       'alpha_region_footer_third_equal_height_container' => 1,
       'favicon_mimetype' => 'image/png',
     ),
-    'color_cmstheme_files' => '',
-    'color_cmstheme_logo' => '',
-    'color_cmstheme_palette' => '',
-    'color_cmstheme_stylesheets' => '',
-    'color_cmstheme_screenshot' => '',
+    'color_os2web_core_theme_files' => '',
+    'color_os2web_core_theme_logo' => '',
+    'color_os2web_core_theme_palette' => '',
+    'color_os2web_core_theme_stylesheets' => '',
+    'color_os2web_core_theme_screenshot' => '',
   );
   $export['os2web_frontend_portal_frontpage'] = $delta;
 
@@ -1680,7 +1680,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->mode = 'preserve';
   $delta->parent = '';
   $delta->settings = array(
-    'theme_cmstheme_settings' => array(
+    'theme_os2web_core_theme_settings' => array(
       'alpha_debug_grid_roles' => array(
         1 => 0,
         2 => 0,
@@ -1695,11 +1695,11 @@ function os2web_frontend_delta_default_templates() {
       'alpha_region_preface_first_css' => '',
       'alpha_region_sidebar_second_css' => 'omega',
     ),
-    'color_cmstheme_files' => NULL,
-    'color_cmstheme_logo' => NULL,
-    'color_cmstheme_palette' => NULL,
-    'color_cmstheme_stylesheets' => NULL,
-    'color_cmstheme_screenshot' => NULL,
+    'color_os2web_core_theme_files' => NULL,
+    'color_os2web_core_theme_logo' => NULL,
+    'color_os2web_core_theme_palette' => NULL,
+    'color_os2web_core_theme_stylesheets' => NULL,
+    'color_os2web_core_theme_screenshot' => NULL,
   );
   $export['os2web_frontend_standard'] = $delta;
 
