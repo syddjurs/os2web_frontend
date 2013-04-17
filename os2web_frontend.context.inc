@@ -247,7 +247,7 @@ function os2web_frontend_context_default_contexts() {
         ),
         'menu-menu-top-menu' => array(
           'module' => 'menu',
-          'delta' => 'menu-top-menu',
+          'delta' => 'os2web-menu-top-menu',
           'region' => 'user_second',
           'weight' => '-10',
         ),
@@ -422,7 +422,7 @@ function os2web_frontend_context_default_contexts() {
         ),
         'menu-menu-top-menu' => array(
           'module' => 'menu',
-          'delta' => 'menu-top-menu',
+          'delta' => 'os2web-menu-top-menu',
           'region' => 'user_second',
           'weight' => '-69',
         ),

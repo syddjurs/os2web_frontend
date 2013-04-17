@@ -10,6 +10,47 @@
 function os2web_frontend_menu_default_menu_links() {
   $menu_links = array();
 
+<<<<<<< Updated upstream
+=======
+  // Exported menu link: menu-top-menu:http://www.adgangforalle.dk/
+  $menu_links['os2web-menu-top-menu:http://www.adgangforalle.dk/'] = array(
+    'menu_name' => 'os2web-menu-top-menu',
+    'link_path' => 'http://www.adgangforalle.dk/',
+    'router_path' => '',
+    'link_title' => 'Læs højt',
+    'options' => array(
+      'minipanel' => '',
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '1',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-49',
+  );
+  // Exported menu link: menu-top-menu:user/logout
+  $menu_links['os2web-menu-top-menu:user/logout'] = array(
+    'menu_name' => 'os2web-menu-top-menu',
+    'link_path' => 'user/logout',
+    'router_path' => 'user/logout',
+    'link_title' => 'Log ud',
+    'options' => array(
+      'minipanel' => '',
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '-50',
+  );
+>>>>>>> Stashed changes
   // Exported menu link: os2web-main-menu:taxonomy/term/4
   $menu_links['os2web-main-menu:taxonomy/term/4'] = array(
     'menu_name' => 'os2web-main-menu',

@@ -42,11 +42,21 @@ features[delta][] = os2web_frontend_content_editing
 features[delta][] = os2web_frontend_portal_frontpage
 features[delta][] = os2web_frontend_standard
 features[field][] = node-os2web_frontend_background_img-field_os2web_frontend_bg_file
+<<<<<<< Updated upstream
 features[node][] = os2web_frontend_background_img
 features[user_permission][] = administer background image
 features[user_permission][] = administer delta
 features[user_permission][] = manage background images
 features[user_permission][] = administer @font-your-face
+=======
+features[menu_custom][] = os2web-main-menu
+features[menu_custom][] = os2web-menu-business-shortcuts
+features[menu_custom][] = os2web-menu-contentmenu
+features[menu_custom][] = os2web-menu-other-sites
+features[menu_custom][] = os2web-menu-user
+features[menu_links][] = os2web-menu-top-menu:http://www.adgangforalle.dk/
+features[menu_links][] = os2web-menu-top-menu:user/logout
+>>>>>>> Stashed changes
 features[menu_links][] = os2web-main-menu:taxonomy/term/4
 features[menu_links][] = os2web-main-menu:taxonomy/term/5
 features[menu_links][] = os2web-main-menu:taxonomy/term/6
