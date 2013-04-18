@@ -20,7 +20,7 @@ function os2web_frontend_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'theme_cmstheme_settings';
+  $strongarm->name = 'theme_os2web_core_theme_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
     'toggle_name' => 1,
@@ -37,7 +37,7 @@ function os2web_frontend_strongarm() {
     'default_favicon' => 0,
     'favicon_path' => 'public://vaabenskjold-ikon.png',
     'favicon_upload' => '',
-    'alpha_grid' => 'cmstheme_default',
+    'alpha_grid' => 'os2web_core_theme_default',
     'alpha_responsive' => 0,
     'alpha_viewport' => 1,
     'alpha_viewport_initial_scale' => '1',
@@ -61,10 +61,10 @@ function os2web_frontend_strongarm() {
     'alpha_layouts_alpha_fluid_normal_responsive' => 0,
     'alpha_layouts_alpha_fluid_normal_weight' => '0',
     'alpha_layouts_alpha_fluid_normal_media' => 'all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)',
-    'alpha_primary_cmstheme_default' => 'normal',
-    'alpha_layouts_cmstheme_default_normal_responsive' => 0,
-    'alpha_layouts_cmstheme_default_normal_weight' => '0',
-    'alpha_layouts_cmstheme_default_normal_media' => 'all',
+    'alpha_primary_os2web_core_theme_default' => 'normal',
+    'alpha_layouts_os2web_core_theme_default_normal_responsive' => 0,
+    'alpha_layouts_os2web_core_theme_default_normal_weight' => '0',
+    'alpha_layouts_os2web_core_theme_default_normal_media' => 'all',
     'alpha_libraries' => array(
       'omega_formalize' => 'omega_formalize',
       'omega_mediaqueries' => 0,
@@ -426,7 +426,7 @@ function os2web_frontend_strongarm() {
     'nice_menus_custom_css' => '',
     'favicon_mimetype' => 'image/png',
   );
-  $export['theme_cmstheme_settings'] = $strongarm;
+  $export['theme_os2web_core_theme_settings'] = $strongarm;
 
   return $export;
 }

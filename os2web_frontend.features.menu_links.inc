@@ -11,8 +11,9 @@ function os2web_frontend_menu_default_menu_links() {
   $menu_links = array();
 
   // Exported menu link: menu-top-menu:http://www.adgangforalle.dk/
-  $menu_links['menu-top-menu:http://www.adgangforalle.dk/'] = array(
-    'menu_name' => 'menu-top-menu',
+
+  $menu_links['os2web-menu-top-menu:http://www.adgangforalle.dk/'] = array(
+    'menu_name' => 'os2web-menu-top-menu',
     'link_path' => 'http://www.adgangforalle.dk/',
     'router_path' => '',
     'link_title' => 'Læs højt',
@@ -30,8 +31,9 @@ function os2web_frontend_menu_default_menu_links() {
     'weight' => '-49',
   );
   // Exported menu link: menu-top-menu:user/logout
-  $menu_links['menu-top-menu:user/logout'] = array(
-    'menu_name' => 'menu-top-menu',
+
+  $menu_links['os2web-menu-top-menu:user/logout'] = array(
+    'menu_name' => 'os2web-menu-top-menu',
     'link_path' => 'user/logout',
     'router_path' => 'user/logout',
     'link_title' => 'Log ud',
@@ -84,7 +86,7 @@ function os2web_frontend_menu_default_menu_links() {
           ),
         ),
         'style' => array(
-          'name' => 'cmstheme',
+          'name' => 'os2web_core_theme',
           'width' => array(
             'min' => '970',
             'max' => '970',
@@ -145,7 +147,7 @@ function os2web_frontend_menu_default_menu_links() {
           ),
         ),
         'style' => array(
-          'name' => 'cmstheme',
+          'name' => 'os2web_core_theme',
           'width' => array(
             'min' => '970',
             'max' => '970',
@@ -206,7 +208,7 @@ function os2web_frontend_menu_default_menu_links() {
           ),
         ),
         'style' => array(
-          'name' => 'cmstheme',
+          'name' => 'os2web_core_theme',
           'width' => array(
             'min' => '970',
             'max' => '970',

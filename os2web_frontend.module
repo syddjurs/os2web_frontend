@@ -34,7 +34,7 @@ EOS;
  */
 function os2web_frontend_menu_minipanels_styles() {
   $styles = array(
-    'cmstheme' => t('CMSTheme'),
+    'os2web_core_theme' => t('CMSTheme'),
   );
   return $styles;
 }
