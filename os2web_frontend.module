@@ -68,3 +68,16 @@ function os2web_frontend_form_os2web_settings_settings_form_alter(&$form, &$form
     '#description' => t('Machine name for the menu to be inserted in blank left sidebars'),
   );
 }
+
+/**
+ * Implements hook_os2web_help().
+ */
+function os2web_frontend_os2web_help($sections) {
+  $sections['contenttype'] = t('<b>Background:</b> <a href="@url" target="_blank">Create a background</a>. A background can be used as the background on all pages.', array('@url' => url('node/add/os2web-frontend-background-img')));
+  $sections['menu'] = t('<p><b>Main Menu:</b> Main menu contains the overall site structure.<p/>');
+  $sections['menu'] .= t('<p><b>Contentmenu (<i>Indholdsmenu<i/>):</b> The contentmenu contains an expanded menu derived from the Main Menu. Do you need to link to a specific content, <a href="@url" target="_blank">a link can be created.</a>.<p/>', array('@url' => url('admin/structure/menu/manage/os2web-menu-contentmenu/add')));
+  $sections['menu'] .= t('<p><b>Other websites:</b> This menu can be used to link to other websites in your network.<p/>');
+  $sections['menu'] .= t('<p><b>Your municipality:</b> Quick links to relevant sites in Your municipality. This is shown above the main menu.<p/>');
+  $sections['menu'] .= t('<p><b>Top Menu:</b> The Top menu are shown on every pages, and shows some helpfull links.<p/>');
+  return $sections;
+}
