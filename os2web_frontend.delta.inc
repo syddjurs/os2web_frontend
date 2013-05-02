@@ -16,7 +16,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_frontpage';
   $delta->name = 'Forside';
   $delta->description = '';
-  $delta->theme = 'os2web_theme';
+  $delta->theme = 'os2web_core_theme';
   $delta->mode = 'preserve';
   $delta->parent = 'os2web_frontend_standard';
   $delta->settings = array(
@@ -432,7 +432,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_hide_sec_sidebar';
   $delta->name = 'Hide Second Sidebar';
   $delta->description = '';
-  $delta->theme = 'os2web_theme';
+  $delta->theme = 'os2web_core_theme';
   $delta->mode = 'preserve';
   $delta->parent = 'os2web_frontend_frontpage';
   $delta->settings = array(
@@ -844,7 +844,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_content_editing';
   $delta->name = 'Indholdsredigering';
   $delta->description = '';
-  $delta->theme = 'os2web_theme';
+  $delta->theme = 'os2web_core_theme';
   $delta->mode = 'preserve';
   $delta->parent = '';
   $delta->settings = array(
@@ -1260,7 +1260,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_portal_frontpage';
   $delta->name = 'Portalforside';
   $delta->description = '';
-  $delta->theme = 'os2web_theme';
+  $delta->theme = 'os2web_core_theme';
   $delta->mode = 'preserve';
   $delta->parent = 'os2web_frontend_frontpage';
   $delta->settings = array(
@@ -1676,7 +1676,7 @@ function os2web_frontend_delta_default_templates() {
   $delta->machine_name = 'os2web_frontend_standard';
   $delta->name = 'Standard';
   $delta->description = '';
-  $delta->theme = 'os2web_theme';
+  $delta->theme = 'os2web_core_theme';
   $delta->mode = 'preserve';
   $delta->parent = '';
   $delta->settings = array(
