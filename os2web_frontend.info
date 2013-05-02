@@ -47,7 +47,6 @@ features[node][] = os2web_frontend_background_img
 features[user_permission][] = administer background image
 features[user_permission][] = administer delta
 features[user_permission][] = manage background images
-features[user_permission][] = administer @font-your-face
 features[menu_custom][] = os2web-main-menu
 features[menu_custom][] = os2web-menu-business-shortcuts
 features[menu_custom][] = os2web-menu-contentmenu

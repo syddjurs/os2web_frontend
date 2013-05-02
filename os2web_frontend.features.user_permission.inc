@@ -24,5 +24,14 @@ function os2web_frontend_user_default_permissions() {
     'module' => 'delta_ui',
   );
 
+  // Exported permission: manage background images.
+  $permissions['manage background images'] = array(
+    'name' => 'manage background images',
+    'roles' => array(
+      0 => 'Administrator',
+      1 => 'Webmaster',
+    ),
+    'module' => 'bg_image_ui',
+  );
   return $permissions;
 }

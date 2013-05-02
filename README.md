@@ -15,7 +15,6 @@ Dependencies
 - delta
 - delta_ui
 - context
-- fontyourface
 
 Configuration
 -----------
