@@ -9,6 +9,11 @@ core = 7.x
 
 ; Libraries
 
+libraries[superfish][download][type] = "git"
+libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
+libraries[superfish][download][revision] = "master"
+libraries[superfish][destination] = "libraries"
+
 ; Contrib modules
 
 ; Basic
