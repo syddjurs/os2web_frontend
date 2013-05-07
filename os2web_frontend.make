@@ -19,10 +19,10 @@ libraries[superfish][destination] = "libraries"
 ; Basic
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta1"
+projects[features][version] = "2.0-beta2"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -43,10 +43,10 @@ projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta4"
+projects[context][version] = "3.0-beta6"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.5"
+projects[views][version] = "3.7"
 
 projects[superfish][subdir] = "contrib"
 projects[superfish][version] = "1.8"
