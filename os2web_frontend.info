@@ -17,6 +17,7 @@ dependencies[] = delta
 dependencies[] = delta_ui
 dependencies[] = context
 dependencies[] = views
+dependencies[] = menu_position
 features[ctools][] = strongarm:strongarm:1
 features[ctools][] = delta:delta:3
 features[features_api][] = api:1
