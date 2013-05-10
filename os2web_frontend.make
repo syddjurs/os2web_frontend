@@ -51,6 +51,9 @@ projects[views][version] = "3.7"
 projects[superfish][subdir] = "contrib"
 projects[superfish][version] = "1.8"
 
+projects[menu_position][subdir] = "contrib"
+projects[menu_position][version] = "1.1"
+
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable7"
 projects[media][patch][] = "http://drupal.org/files/media-media_browser-preview_javascript_incompatibility-1743040.patch"
