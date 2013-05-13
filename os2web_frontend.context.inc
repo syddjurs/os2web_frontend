@@ -79,15 +79,21 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'panels_mini-footer_menuer' => array(
+        'block-3' => array(
+          'module' => 'block',
+          'delta' => '3',
+          'region' => 'footer_first',
+          'weight' => '-10',
+        ),
+        'panels_mini-os2web_base_panels_mini_footer' => array(
           'module' => 'panels_mini',
-          'delta' => 'footer_menuer',
+          'delta' => 'os2web_base_panels_mini_footer',
           'region' => 'footer_second',
           'weight' => '-10',
         ),
-        'block-6' => array(
+        'block-2' => array(
           'module' => 'block',
-          'delta' => '6',
+          'delta' => '2',
           'region' => 'footer_third',
           'weight' => '-10',
         ),
@@ -367,47 +373,41 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'system-os2web-menu-user' => array(
-          'module' => 'system',
+        'menu-os2web-menu-user' => array(
+          'module' => 'menu',
           'delta' => 'os2web-menu-user',
           'region' => 'user_first',
           'weight' => '-10',
         ),
-        'views-os2web_frontend-block_1' => array(
+        'views-01214db10d6cffa14bc30a9c1af02127' => array(
           'module' => 'views',
-          'delta' => 'os2web_frontend-block_1',
+          'delta' => '01214db10d6cffa14bc30a9c1af02127',
           'region' => 'user_second',
-          'weight' => '-71',
+          'weight' => '-10',
         ),
         'menu-menu-top-menu' => array(
           'module' => 'menu',
-          'delta' => 'os2web-menu-top-menu',
+          'delta' => 'menu-top-menu',
           'region' => 'user_second',
-          'weight' => '-69',
+          'weight' => '-9',
         ),
-        'views-os2web_frontend-block_2' => array(
+        'menu_block-1' => array(
+          'module' => 'menu_block',
+          'delta' => '1',
+          'region' => 'sidebar_first',
+          'weight' => '-10',
+        ),
+        'menu-os2web-menu-business-shortcuts' => array(
+          'module' => 'menu',
+          'delta' => 'os2web-menu-business-shortcuts',
+          'region' => 'header_second',
+          'weight' => '-10',
+        ),
+        'views-a6960d217e4aa28943a40b0ce5af5f42' => array(
           'module' => 'views',
-          'delta' => 'os2web_frontend-block_2',
+          'delta' => 'a6960d217e4aa28943a40b0ce5af5f42',
           'region' => 'preface_first',
-          'weight' => '-71',
-        ),
-        'nice_menus-1' => array(
-          'module' => 'nice_menus',
-          'delta' => 1,
-          'region' => 'preface_first',
-          'weight' => '-70',
-        ),
-        'block-7' => array(
-          'module' => 'block',
-          'delta' => 7,
-          'region' => 'footer_first',
-          'weight' => '-10',
-        ),
-        'block-6' => array(
-          'module' => 'block',
-          'delta' => 6,
-          'region' => 'footer_third',
-          'weight' => '-10',
+          'weight' => '-9',
         ),
       ),
     ),

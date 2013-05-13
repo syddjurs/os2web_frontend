@@ -14,10 +14,9 @@ libraries[qtip][download][url] = "https://raw.github.com/bellcom/qTip1/master/1.
 libraries[qtip][directory_name] = "qtip"
 libraries[qtip][destination] = "libraries"
 
-
-libraries[superfish][download][type] = "get"
-libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/1571b1d5d3519246fe5b2e40a14579758afac503.zip"
-libraries[superfish][directory_name] = "superfish"
+libraries[superfish][download][type] = "git"
+libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
+libraries[superfish][download][revision] = "master"
 libraries[superfish][destination] = "libraries"
 
 ; Contrib modules
@@ -25,10 +24,10 @@ libraries[superfish][destination] = "libraries"
 ; Basic
 
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.2"
+projects[ctools][version] = "1.3"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "2.0-beta1"
+projects[features][version] = "2.0-beta2"
 
 projects[strongarm][subdir] = "contrib"
 projects[strongarm][version] = "2.0"
@@ -49,13 +48,16 @@ projects[delta][subdir] = "contrib"
 projects[delta][version] = "3.0-beta11"
 
 projects[context][subdir] = "contrib"
-projects[context][version] = "3.0-beta4"
+projects[context][version] = "3.0-beta6"
 
 projects[views][subdir] = "contrib"
-projects[views][version] = "3.5"
+projects[views][version] = "3.7"
 
 projects[superfish][subdir] = "contrib"
 projects[superfish][version] = "1.8"
+
+projects[menu_position][subdir] = "contrib"
+projects[menu_position][version] = "1.1"
 
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable7"
