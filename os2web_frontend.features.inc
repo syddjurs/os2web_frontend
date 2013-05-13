@@ -26,7 +26,7 @@ function os2web_frontend_ctools_plugin_api() {
  * Implements hook_views_api().
  */
 function os2web_frontend_views_api() {
-  return array("version" => "3.0");
+  return array("api" => "3.0");
 }
 
 /**
