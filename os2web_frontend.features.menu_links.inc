@@ -16,11 +16,7 @@ function os2web_frontend_menu_default_menu_links() {
     'link_path' => 'contact',
     'router_path' => 'contact',
     'link_title' => 'Kontakt',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
+    'options' => array(),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
@@ -45,7 +41,7 @@ function os2web_frontend_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -49,
   );
   // Exported menu link: os2web-menu-business-shortcuts:selvbetjening
   $menu_links['os2web-menu-business-shortcuts:selvbetjening'] = array(
@@ -53,11 +49,7 @@ function os2web_frontend_menu_default_menu_links() {
     'link_path' => 'selvbetjening',
     'router_path' => 'selvbetjening',
     'link_title' => 'Selvbetjening',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
+    'options' => array(),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
