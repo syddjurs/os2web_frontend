@@ -19,7 +19,7 @@ function os2web_frontend_context_default_contexts() {
   $context->conditions = array(
     'menu' => array(
       'values' => array(
-        'taxonomy/term/5791' => 'taxonomy/term/5791',
+        'taxonomy/term/10957' => 'taxonomy/term/10957',
       ),
     ),
     'node' => array(
@@ -27,6 +27,7 @@ function os2web_frontend_context_default_contexts() {
         'os2web_base_contentpage' => 'os2web_base_contentpage',
         'os2web_base_gallery' => 'os2web_base_gallery',
         'os2web_base_iframe' => 'os2web_base_iframe',
+        'os2web_borger_dk_article' => 'os2web_borger_dk_article',
         'os2web_sections_page' => 'os2web_sections_page',
         'webform' => 'webform',
       ),
@@ -43,12 +44,6 @@ function os2web_frontend_context_default_contexts() {
           'delta' => '4dce1dd077c17fbd9de1c2aaf9a8c1a0',
           'region' => 'sidebar_first',
           'weight' => '-10',
-        ),
-        'superfish-1' => array(
-          'module' => 'superfish',
-          'delta' => '1',
-          'region' => 'sidebar_first',
-          'weight' => '-9',
         ),
       ),
     ),
@@ -161,6 +156,12 @@ function os2web_frontend_context_default_contexts() {
           'module' => 'menu',
           'delta' => 'os2web-menu-top-menu',
           'region' => 'user_second',
+          'weight' => '-10',
+        ),
+        'menu_block-1' => array(
+          'module' => 'menu_block',
+          'delta' => '1',
+          'region' => 'sidebar_first',
           'weight' => '-10',
         ),
         'views-477c0f45ca9cbbc9cd19af36c681103e' => array(
