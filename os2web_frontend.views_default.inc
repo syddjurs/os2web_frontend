@@ -93,6 +93,7 @@ function os2web_frontend_views_default_views() {
   $handler->display->display_options['fields']['nothing']['element_wrapper_type'] = 'div';
   $handler->display->display_options['fields']['nothing']['element_wrapper_class'] = 'vis-andre-sites';
   $handler->display->display_options['fields']['nothing']['element_default_classes'] = FALSE;
+  $handler->display->display_options['block_description'] = 'os2web_frontend_view_preface';
 
   /* Display: Skjul preface */
   $handler = $view->new_display('block', 'Skjul preface', 'block_2');
@@ -130,6 +131,7 @@ function os2web_frontend_views_default_views() {
     t('Vis preface'),
     t('more'),
     t('<a href="" data-target="zone-preface-wrapper">Andre sites</a>'),
+    t('os2web_frontend_view_preface'),
     t('Skjul preface'),
     t('<a href="" data-target="zone-preface-wrapper">Skjul andre sites</a>'),
   );

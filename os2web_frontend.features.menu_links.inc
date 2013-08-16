@@ -16,11 +16,7 @@ function os2web_frontend_menu_default_menu_links() {
     'link_path' => 'contact',
     'router_path' => 'contact',
     'link_title' => 'Kontakt',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
+    'options' => array(),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
@@ -45,7 +41,7 @@ function os2web_frontend_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -49,
   );
   // Exported menu link: os2web-menu-business-shortcuts:selvbetjening
   $menu_links['os2web-menu-business-shortcuts:selvbetjening'] = array(
@@ -53,55 +49,13 @@ function os2web_frontend_menu_default_menu_links() {
     'link_path' => 'selvbetjening',
     'router_path' => 'selvbetjening',
     'link_title' => 'Selvbetjening',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
+    'options' => array(),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -48,
-  );
-  // Exported menu link: os2web-menu-contentmenu:taxonomy/term/5
-  $menu_links['os2web-menu-contentmenu:taxonomy/term/5'] = array(
-    'menu_name' => 'os2web-menu-contentmenu',
-    'link_path' => 'taxonomy/term/5',
-    'router_path' => 'taxonomy/term/%',
-    'link_title' => 'Erhverv',
-    'options' => array(
-      'minipanel' => '',
-      'attributes' => array(
-        'title' => 'Se alle punkter under Erhverv',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => 0,
-  );
-  // Exported menu link: os2web-menu-contentmenu:taxonomy/term/6
-  $menu_links['os2web-menu-contentmenu:taxonomy/term/6'] = array(
-    'menu_name' => 'os2web-menu-contentmenu',
-    'link_path' => 'taxonomy/term/6',
-    'router_path' => 'taxonomy/term/%',
-    'link_title' => 'Politik & planer',
-    'options' => array(
-      'minipanel' => '',
-      'attributes' => array(
-        'title' => 'Se alle punkter under Politik & planer',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => 1,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 0,
-    'weight' => 0,
   );
   // Exported menu link: os2web-menu-user:admin/workbench
   $menu_links['os2web-menu-user:admin/workbench'] = array(
@@ -299,12 +253,10 @@ function os2web_frontend_menu_default_menu_links() {
   t('+kontaktblok');
   t('+nyhed');
   t('+spotboks');
-  t('Erhverv');
   t('Kontakt');
   t('Nyheder');
   t('Opret ESDH dokument');
   t('Opret ESDH sag');
-  t('Politik & planer');
   t('Selvbetjening');
   t('Workbench');
 

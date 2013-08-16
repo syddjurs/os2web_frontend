@@ -3,7 +3,7 @@
  * jquery.sbselect.js
  */
 
-$j(document).ready(function($) {
+jQuery(document).ready(function($) {
   $('ul.sb-list').each(function(){
 
     var list = $(this),
@@ -52,5 +52,5 @@ $j(document).ready(function($) {
   .on('click', onClick);
 
   jQuery('.sb-select').yaselect();
-  jQuery('#edit-committee').yaselect();
+  jQuery('#edit-os2web-meetings-tax-committee').yaselect();
 });
