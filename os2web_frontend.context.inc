@@ -19,16 +19,15 @@ function os2web_frontend_context_default_contexts() {
   $context->conditions = array(
     'menu' => array(
       'values' => array(
-        'taxonomy/term/5' => 'taxonomy/term/5',
+        'taxonomy/term/10957' => 'taxonomy/term/10957',
       ),
     ),
     'node' => array(
       'values' => array(
-        'contentpage' => 'contentpage',
-        'galleri' => 'galleri',
-        'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
-        'local_plan' => 'local_plan',
-        'referat' => 'referat',
+        'os2web_base_contentpage' => 'os2web_base_contentpage',
+        'os2web_base_gallery' => 'os2web_base_gallery',
+        'os2web_base_iframe' => 'os2web_base_iframe',
+        'os2web_borger_dk_article' => 'os2web_borger_dk_article',
         'os2web_sections_page' => 'os2web_sections_page',
         'webform' => 'webform',
       ),
@@ -40,17 +39,11 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-sitestuktur-block_3' => array(
+        'views-4dce1dd077c17fbd9de1c2aaf9a8c1a0' => array(
           'module' => 'views',
-          'delta' => 'sitestuktur-block_3',
+          'delta' => '4dce1dd077c17fbd9de1c2aaf9a8c1a0',
           'region' => 'sidebar_first',
-          'weight' => '-74',
-        ),
-        'superfish-1' => array(
-          'module' => 'superfish',
-          'delta' => 1,
-          'region' => 'sidebar_first',
-          'weight' => '16',
+          'weight' => '-10',
         ),
       ),
     ),
@@ -89,12 +82,6 @@ function os2web_frontend_context_default_contexts() {
           'module' => 'panels_mini',
           'delta' => 'os2web_base_panels_mini_footer',
           'region' => 'footer_second',
-          'weight' => '-10',
-        ),
-        'block-2' => array(
-          'module' => 'block',
-          'delta' => '2',
-          'region' => 'footer_third',
           'weight' => '-10',
         ),
       ),
@@ -145,10 +132,10 @@ function os2web_frontend_context_default_contexts() {
   $context->conditions = array(
     'node' => array(
       'values' => array(
-        'contentpage' => 'contentpage',
-        'galleri' => 'galleri',
-        'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
-        'news' => 'news',
+        'os2web_base_contentpage' => 'os2web_base_contentpage',
+        'os2web_base_gallery' => 'os2web_base_gallery',
+        'os2web_base_iframe' => 'os2web_base_iframe',
+        'os2web_base_news' => 'os2web_base_news',
         'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
@@ -159,53 +146,47 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-redaktoer_info-block' => array(
+        'views-4d3a9500b766cd615283b4f23ec2f7c1' => array(
           'module' => 'views',
-          'delta' => 'redaktoer_info-block',
+          'delta' => '4d3a9500b766cd615283b4f23ec2f7c1',
           'region' => 'content',
-          'weight' => '-10',
+          'weight' => '10',
         ),
-        'menu-menu-top-menu' => array(
+        'menu-os2web-menu-top-menu' => array(
           'module' => 'menu',
           'delta' => 'os2web-menu-top-menu',
           'region' => 'user_second',
           'weight' => '-10',
         ),
-        'delta_blocks-action-links' => array(
-          'module' => 'delta_blocks',
-          'delta' => 'action-links',
-          'region' => 'user_second',
+        'menu_block-1' => array(
+          'module' => 'menu_block',
+          'delta' => '1',
+          'region' => 'sidebar_first',
           'weight' => '-10',
         ),
-        'menu_block-12' => array(
-          'module' => 'menu_block',
-          'delta' => 12,
-          'region' => 'sidebar_first',
-          'weight' => '-7',
-        ),
-        'views-selvbetjening-block_6' => array(
+        'views-477c0f45ca9cbbc9cd19af36c681103e' => array(
           'module' => 'views',
-          'delta' => 'selvbetjening-block_6',
+          'delta' => '477c0f45ca9cbbc9cd19af36c681103e',
           'region' => 'sidebar_second',
-          'weight' => '-69',
+          'weight' => '-53',
         ),
-        'views-kontaktblok-block' => array(
+        'views-428d591c1dcba42e1f02e4d3e427c502' => array(
           'module' => 'views',
-          'delta' => 'kontaktblok-block',
+          'delta' => '428d591c1dcba42e1f02e4d3e427c502',
           'region' => 'sidebar_second',
-          'weight' => '-68',
+          'weight' => '-52',
         ),
-        'views-spot_view-block_1' => array(
+        'views-236b5043c40af396053d1693200f7809' => array(
           'module' => 'views',
-          'delta' => 'spot_view-block_1',
+          'delta' => '236b5043c40af396053d1693200f7809',
           'region' => 'sidebar_second',
-          'weight' => '-67',
+          'weight' => '-51',
         ),
-        'views-kle_lonks_boks-kle_links_boks' => array(
+        'views-18f59ce05ca3e305f3453541d5330659' => array(
           'module' => 'views',
-          'delta' => 'kle_lonks_boks-kle_links_boks',
+          'delta' => '18f59ce05ca3e305f3453541d5330659',
           'region' => 'sidebar_second',
-          'weight' => '-66',
+          'weight' => '-50',
         ),
         'menu-os2web-menu-business-shortcuts' => array(
           'module' => 'menu',
@@ -233,8 +214,7 @@ function os2web_frontend_context_default_contexts() {
   $context->conditions = array(
     'node' => array(
       'values' => array(
-        'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
-        'meeting' => 'meeting',
+        'os2web_meetings_meeting' => 'os2web_meetings_meeting',
         'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
@@ -332,17 +312,11 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-sitestuktur-block_1' => array(
+        'views-059ce35efb0b5a54b0d58599bf1750ec' => array(
           'module' => 'views',
-          'delta' => 'sitestuktur-block_1',
+          'delta' => '059ce35efb0b5a54b0d58599bf1750ec',
           'region' => 'sidebar_first',
           'weight' => '-10',
-        ),
-        'menu_block-11' => array(
-          'module' => 'menu_block',
-          'delta' => 11,
-          'region' => 'sidebar_first',
-          'weight' => '-9',
         ),
       ),
     ),
@@ -391,12 +365,6 @@ function os2web_frontend_context_default_contexts() {
           'region' => 'user_second',
           'weight' => '-9',
         ),
-        'menu_block-1' => array(
-          'module' => 'menu_block',
-          'delta' => '1',
-          'region' => 'sidebar_first',
-          'weight' => '-10',
-        ),
         'menu-os2web-menu-business-shortcuts' => array(
           'module' => 'menu',
           'delta' => 'os2web-menu-business-shortcuts',
@@ -424,14 +392,14 @@ function os2web_frontend_context_default_contexts() {
   $context->conditions = array(
     'menu' => array(
       'values' => array(
-        'taxonomy/term/4' => 'taxonomy/term/4',
+        'taxonomy/term/5793' => 'taxonomy/term/5793',
       ),
     ),
     'node' => array(
       'values' => array(
-        'contentpage' => 'contentpage',
-        'galleri' => 'galleri',
-        'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
+        'os2web_base_contentpage' => 'os2web_base_contentpage',
+        'os2web_base_gallery' => 'os2web_base_gallery',
+        'os2web_base_iframe' => 'os2web_base_iframe',
         'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
@@ -442,17 +410,17 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-sitestuktur-block_2' => array(
+        'views-32040efe6300ac405354acef7434ca0f' => array(
           'module' => 'views',
-          'delta' => 'sitestuktur-block_2',
+          'delta' => '32040efe6300ac405354acef7434ca0f',
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
         'superfish-2' => array(
           'module' => 'superfish',
-          'delta' => 2,
+          'delta' => '2',
           'region' => 'sidebar_first',
-          'weight' => '9',
+          'weight' => '-9',
         ),
       ),
     ),
