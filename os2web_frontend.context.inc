@@ -45,6 +45,12 @@ function os2web_frontend_context_default_contexts() {
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
+        'menu_block-1' => array(
+          'module' => 'menu_block',
+          'delta' => '1',
+          'region' => 'sidebar_first',
+          'weight' => '-9',
+        ),
       ),
     ),
   );
@@ -252,15 +258,11 @@ function os2web_frontend_context_default_contexts() {
   $context->conditions = array(
     'menu' => array(
       'values' => array(
-        'taxonomy/term/6' => 'taxonomy/term/6',
+        'taxonomy/term/10958' => 'taxonomy/term/10958',
       ),
     ),
     'node' => array(
       'values' => array(
-        'contentpage' => 'contentpage',
-        'galleri' => 'galleri',
-        'iframe_selvbetjeningsl_sning_mm' => 'iframe_selvbetjeningsl_sning_mm',
-        'local_plan' => 'local_plan',
         'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
@@ -271,17 +273,11 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-sitestuktur-block_4' => array(
-          'module' => 'views',
-          'delta' => 'sitestuktur-block_4',
+        'menu_block-6' => array(
+          'module' => 'menu_block',
+          'delta' => '6',
           'region' => 'sidebar_first',
           'weight' => '-10',
-        ),
-        'superfish-3' => array(
-          'module' => 'superfish',
-          'delta' => 3,
-          'region' => 'sidebar_first',
-          'weight' => '9',
         ),
       ),
     ),
@@ -312,9 +308,9 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-059ce35efb0b5a54b0d58599bf1750ec' => array(
-          'module' => 'views',
-          'delta' => '059ce35efb0b5a54b0d58599bf1750ec',
+        'menu_block-8' => array(
+          'module' => 'menu_block',
+          'delta' => '8',
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
