@@ -3,7 +3,7 @@
  * jquery.sbselect.js
  */
 
-jQuery(document).ready(function($) {
+$j(document).ready(function($) {
   $('ul.sb-list').each(function(){
 
     var list = $(this),
