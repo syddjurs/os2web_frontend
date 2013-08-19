@@ -275,12 +275,6 @@ function os2web_frontend_context_default_contexts() {
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
-        'menu_block-6' => array(
-          'module' => 'menu_block',
-          'delta' => '6',
-          'region' => 'sidebar_first',
-          'weight' => '-9',
-        ),
       ),
     ),
   );
