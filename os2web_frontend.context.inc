@@ -252,6 +252,49 @@ function os2web_frontend_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
+  $context->name = 'os2web_frontend_context_iframe';
+  $context->description = 'Menu på Iframe sider samt møder';
+  $context->tag = 'OS2Web - Blokke';
+  $context->conditions = array(
+    'node' => array(
+      'values' => array(
+        'os2web_base_iframe' => 'os2web_base_iframe',
+        'os2web_meetings_meeting' => 'os2web_meetings_meeting',
+      ),
+      'options' => array(
+        'node_form' => '1',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'menu_block-1' => array(
+          'module' => 'menu_block',
+          'delta' => '1',
+          'region' => 'sidebar_first',
+          'weight' => '-10',
+        ),
+        'menu_block-6' => array(
+          'module' => 'menu_block',
+          'delta' => '6',
+          'region' => 'sidebar_first',
+          'weight' => '-9',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Menu på Iframe sider samt møder');
+  t('OS2Web - Blokke');
+  $export['os2web_frontend_context_iframe'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
   $context->name = 'os2web_frontend_context_plans';
   $context->description = 'Planer og fritid sider';
   $context->tag = 'OS2Web - Blokke';
