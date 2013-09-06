@@ -13,6 +13,13 @@ function os2web_frontend_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'menu_minipanels_os2web-main-menu_enabled';
+  $strongarm->value = TRUE;
+  $export['menu_minipanels_os2web-main-menu_enabled'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'theme_os2web_core_theme_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
