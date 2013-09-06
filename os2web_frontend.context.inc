@@ -277,6 +277,9 @@ function os2web_frontend_context_default_contexts() {
         ),
       ),
     ),
+    'delta' => array(
+      'delta_template' => 'os2web_frontend_hide_sec_sidebar',
+    ),
   );
   $context->condition_mode = 0;
 
