@@ -13,13 +13,6 @@ function os2web_frontend_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'menu_minipanels_os2web-main-menu_enabled';
-  $strongarm->value = TRUE;
-  $export['menu_minipanels_os2web-main-menu_enabled'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'theme_os2web_core_theme_settings';
   $strongarm->value = array(
     'toggle_logo' => 1,
@@ -34,8 +27,8 @@ function os2web_frontend_strongarm() {
     'default_logo' => 1,
     'logo_path' => '',
     'logo_upload' => '',
-    'default_favicon' => 1,
-    'favicon_path' => '',
+    'default_favicon' => 0,
+    'favicon_path' => 'public://vaabenskjold-ikon.png',
     'favicon_upload' => '',
     'alpha_grid' => 'os2web_core_theme_default',
     'alpha_responsive' => 0,
@@ -88,6 +81,7 @@ function os2web_frontend_strongarm() {
       'global-blue.css' => 0,
     ),
     'alpha_exclude' => array(
+      'profiles/os2web/modules/contrib/calendar/css/calendar_multiday.css' => 0,
       'modules/comment/comment.css' => 0,
       'profiles/os2web/modules/contrib/date/date_api/date.css' => 0,
       'profiles/os2web/modules/contrib/date/date_popup/themes/datepicker.1.7.css' => 0,
@@ -455,6 +449,7 @@ function os2web_frontend_strongarm() {
     'alpha_region_footer_third_equal_height_element' => 0,
     'alpha_region_footer_third_equal_height_container' => 1,
     'nice_menus_custom_css' => '',
+    'favicon_mimetype' => 'image/png',
   );
   $export['theme_os2web_core_theme_settings'] = $strongarm;
 
