@@ -348,9 +348,9 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'menu_block-8' => array(
+        'menu_block-7' => array(
           'module' => 'menu_block',
-          'delta' => '8',
+          'delta' => '7',
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
