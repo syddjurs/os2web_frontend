@@ -73,7 +73,6 @@ features[menu_links][] = os2web-menu-user:node/add/os2web-base-rotating-image
 features[menu_links][] = os2web-menu-user:node/add/os2web-contact-contact
 features[menu_links][] = os2web-menu-user:node/add/os2web-spotbox-box
 features[node][] = os2web_frontend_background_img
-features[taxonomy][] = kle
 features[taxonomy][] = s_egeord_sofd
 features[user_permission][] = administer delta
 features[variable][] = theme_os2web_core_theme_settings

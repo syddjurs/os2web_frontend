@@ -78,16 +78,16 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'block-3' => array(
-          'module' => 'block',
-          'delta' => '3',
-          'region' => 'footer_first',
-          'weight' => '-10',
-        ),
         'panels_mini-os2web_base_panels_mini_footer' => array(
           'module' => 'panels_mini',
           'delta' => 'os2web_base_panels_mini_footer',
           'region' => 'footer_second',
+          'weight' => '-10',
+        ),
+        'block-3' => array(
+          'module' => 'block',
+          'delta' => '3',
+          'region' => 'footer_third',
           'weight' => '-10',
         ),
       ),
@@ -345,9 +345,9 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'menu_block-8' => array(
+        'menu_block-7' => array(
           'module' => 'menu_block',
-          'delta' => '8',
+          'delta' => '7',
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
