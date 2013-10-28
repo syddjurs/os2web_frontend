@@ -142,6 +142,7 @@ function os2web_frontend_context_default_contexts() {
         'os2web_base_gallery' => 'os2web_base_gallery',
         'os2web_base_iframe' => 'os2web_base_iframe',
         'os2web_base_news' => 'os2web_base_news',
+        'os2web_borger_dk_article' => 'os2web_borger_dk_article',
         'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
@@ -276,6 +277,9 @@ function os2web_frontend_context_default_contexts() {
           'weight' => '-10',
         ),
       ),
+    ),
+    'delta' => array(
+      'delta_template' => 'os2web_frontend_hide_sec_sidebar',
     ),
   );
   $context->condition_mode = 0;

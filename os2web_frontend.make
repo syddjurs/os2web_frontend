@@ -9,6 +9,11 @@ core = 7.x
 
 ; Libraries
 
+libraries[qtip][download][type] = "get"
+libraries[qtip][download][url] = "https://raw.github.com/bellcom/qTip1/master/1.0.0-rc3/jquery.qtip-1.0.0-rc3.min.js"
+libraries[qtip][directory_name] = "qtip"
+libraries[qtip][destination] = "libraries"
+
 libraries[superfish][download][type] = "git"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
 libraries[superfish][download][revision] = "master"
@@ -57,4 +62,3 @@ projects[menu_position][version] = "1.1"
 projects[media][subdir] = "contrib"
 projects[media][version] = "2.0-unstable7"
 projects[media][patch][] = "http://drupal.org/files/media-media_browser-preview_javascript_incompatibility-1743040.patch"
-
