@@ -262,6 +262,7 @@ function os2web_frontend_context_default_contexts() {
       'values' => array(
         'os2web_base_iframe' => 'os2web_base_iframe',
         'os2web_meetings_meeting' => 'os2web_meetings_meeting',
+        'webform' => 'webform',
       ),
       'options' => array(
         'node_form' => '1',
