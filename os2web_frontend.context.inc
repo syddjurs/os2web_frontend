@@ -143,6 +143,7 @@ function os2web_frontend_context_default_contexts() {
         'os2web_base_iframe' => 'os2web_base_iframe',
         'os2web_base_news' => 'os2web_base_news',
         'os2web_borger_dk_article' => 'os2web_borger_dk_article',
+        'os2web_hearings_hearing_case' => 'os2web_hearings_hearing_case',
         'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
@@ -261,6 +262,7 @@ function os2web_frontend_context_default_contexts() {
       'values' => array(
         'os2web_base_iframe' => 'os2web_base_iframe',
         'os2web_meetings_meeting' => 'os2web_meetings_meeting',
+        'webform' => 'webform',
       ),
       'options' => array(
         'node_form' => '1',
@@ -342,7 +344,7 @@ function os2web_frontend_context_default_contexts() {
       'values' => array(
         'borger' => 'borger',
         'erhverv' => 'erhverv',
-        'politik-og-planer' => 'politik-og-planer',
+        'politik' => 'politik',
       ),
     ),
   );
