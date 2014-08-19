@@ -37,11 +37,11 @@ function os2web_frontend_menu_default_menu_links() {
       'alter' => FALSE,
     ),
     'module' => 'menu',
-    'hidden' => 0,
+    'hidden' => 1,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -48,
   );
   // Exported menu link: os2web-menu-business-shortcuts:selvbetjening
   $menu_links['os2web-menu-business-shortcuts:selvbetjening'] = array(
@@ -55,7 +55,7 @@ function os2web_frontend_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -46,
   );
   // Exported menu link: os2web-menu-user:admin/workbench
   $menu_links['os2web-menu-user:admin/workbench'] = array(

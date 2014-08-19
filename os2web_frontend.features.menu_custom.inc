@@ -37,7 +37,7 @@ function os2web_frontend_menu_default_menu_custom() {
   // Exported menu: os2web-menu-user.
   $menus['os2web-menu-user'] = array(
     'menu_name' => 'os2web-menu-user',
-    'title' => 'User menu',
+    'title' => 'Os2web User menu',
     'description' => 'The <em>User</em> menu contains links related to the user\'s account, as well as the \'Log out\' link.',
   );
   // Translatables
@@ -46,10 +46,10 @@ function os2web_frontend_menu_default_menu_custom() {
   t('Din kommune');
   t('Indholdsmenu');
   t('Main menu');
+  t('Os2web User menu');
   t('Spørgsmål om din kommune');
   t('The <em>Main</em> menu is used on many sites to show the major sections of the site, often in a top navigation bar.');
   t('The <em>User</em> menu contains links related to the user\'s account, as well as the \'Log out\' link.');
-  t('User menu');
 
 
   return $menus;

@@ -40,5 +40,38 @@ function os2web_frontend_field_default_field_bases() {
     'type' => 'image',
   );
 
+  // Exported field_base: 'field_piwik'
+  $field_bases['field_piwik'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_piwik',
+    'foreign keys' => array(),
+    'indexes' => array(
+      'hits' => array(
+        0 => 'nb_hits',
+        1 => 'entry_nb_actions',
+      ),
+      'rate' => array(
+        0 => 'bounce_rate',
+        1 => 'exit_rate',
+      ),
+      'visits' => array(
+        0 => 'nb_visits',
+        1 => 'entry_nb_visits',
+        2 => 'exit_nb_visits',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'piwik_stats',
+    'settings' => array(
+      'period' => 'month',
+      'show_in_statistics_page' => 1,
+    ),
+    'translatable' => 0,
+    'type' => 'piwik_stats',
+  );
+
   return $field_bases;
 }
