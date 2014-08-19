@@ -144,6 +144,7 @@ function os2web_frontend_context_default_contexts() {
         'os2web_base_news' => 'os2web_base_news',
         'os2web_borger_dk_article' => 'os2web_borger_dk_article',
         'os2web_hearings_hearing_case' => 'os2web_hearings_hearing_case',
+        'os2web_meetings_meeting' => 'os2web_meetings_meeting',
         'os2web_sections_page' => 'os2web_sections_page',
       ),
       'options' => array(
@@ -171,12 +172,6 @@ function os2web_frontend_context_default_contexts() {
           'delta' => '1',
           'region' => 'sidebar_first',
           'weight' => '-10',
-        ),
-        'views-477c0f45ca9cbbc9cd19af36c681103e' => array(
-          'module' => 'views',
-          'delta' => '477c0f45ca9cbbc9cd19af36c681103e',
-          'region' => 'sidebar_second',
-          'weight' => '-53',
         ),
         'views-428d591c1dcba42e1f02e4d3e427c502' => array(
           'module' => 'views',
@@ -386,35 +381,11 @@ function os2web_frontend_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'menu-os2web-menu-user' => array(
-          'module' => 'menu',
-          'delta' => 'os2web-menu-user',
-          'region' => 'user_first',
-          'weight' => '-10',
-        ),
-        'views-01214db10d6cffa14bc30a9c1af02127' => array(
-          'module' => 'views',
-          'delta' => '01214db10d6cffa14bc30a9c1af02127',
-          'region' => 'user_second',
-          'weight' => '-10',
-        ),
-        'menu-menu-top-menu' => array(
-          'module' => 'menu',
-          'delta' => 'menu-top-menu',
-          'region' => 'user_second',
-          'weight' => '-9',
-        ),
         'menu-os2web-menu-business-shortcuts' => array(
           'module' => 'menu',
           'delta' => 'os2web-menu-business-shortcuts',
           'region' => 'header_second',
           'weight' => '-10',
-        ),
-        'views-a6960d217e4aa28943a40b0ce5af5f42' => array(
-          'module' => 'views',
-          'delta' => 'a6960d217e4aa28943a40b0ce5af5f42',
-          'region' => 'preface_first',
-          'weight' => '-9',
         ),
       ),
     ),
